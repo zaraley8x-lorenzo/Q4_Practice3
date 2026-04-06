@@ -7,14 +7,26 @@
 </head>
 <body>
 
-    <h2>JavaScript For Loop</h2>
+    <h1>JavaScript For Loop</h1>
         <p id="sample"></p>
         <script>
-        let Sample1= "";
-        for (let x = 0; x < 3; x++) {
-        Sample1 += "The number is " + x + "<br>";
-        }
-        document.getElementById("sample").innerHTML = Sample1;
+            let Sample1= "";
+            for (let x = 0; x < 3; x++) {
+            Sample1 += "The number is " + x + "<br>";
+            }
+            document.getElementById("sample").innerHTML = Sample1;
+        </script>
+
+    <h2>JavaScript While Loop</h2>
+        <p id="sample"></p>
+        <script>
+            let Sample2= "";
+            let y = 0;
+            while (y < 5) {
+            Sample2 += "<br>The number is " + y;
+            y++;
+            }
+            document.getElementById("sample").innerHTML = Sample2;
         </script>
     
 </body>
